@@ -7,4 +7,8 @@ public class testNG {
     public void testcase(){
         System.out.println("This is the test case");
     }
+    @Test
+    public void testcase1(){
+        System.out.println("This is the test case1");
+    }
 }
