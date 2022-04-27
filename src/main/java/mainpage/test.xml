@@ -14,6 +14,10 @@
 <!--        <parameter name="Name" value="Man"></parameter>-->
 <!--        <parameter name="Age" value="23"></parameter>-->
 
+        <listeners>
+            <listener class-name="mainpage.ListernersExample"/>
+        </listeners>
+
         <classes> // third level its have multiple classes
             // include class
            <!-- <class name="mainpage.testNG"/>
@@ -22,8 +26,9 @@
             <class name="mainpage.testNGPriority"/>
             <class name="mainpage.GroupingExample"/>
              <class name="mainpage.ParameterizationExample"/>
+             <class name="mainpage.ParallelTesting"/>
             -->
-            <class name="mainpage.ParallelTesting"/>
+            <class name="mainpage.testNG"/>
         </classes>
 
 
