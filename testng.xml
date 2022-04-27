@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Volumes/Macintosh HD/For Mac/java text and soft file and java IDE/Intellij java project/Testng">
+    <classes><class name="mainpage.DependanicesManagement"><methods>
+        <include name="highSchool"/><include name="higherSecondary"/>
+        <include name="engineering"/></methods></class><class name="mainpage.SkipATestCase"><methods>
+        <include name="startTheCar"/><include name="musicOn"/><include name="putSecondGear"/>
+        <include name="putThirdGear"/><include name="putFourGear"/></methods></class>
+        <class name="mainpage.testNG"><methods><include name="testcase"/>
+            <include name="testcase1"/></methods>
+        </class><class name="mainpage.testNGPriority">
+            <methods><include name="startTheCar"/>
+                <include name="putSecondGear"/>
+                <include name="putThirdGear"/>
+                <include name="putFourGear"/>
+                <include name="startTheCar"/>
+                <include name="putSecondGear"/>
+                <include name="putThirdGear"/>
+                <include name="putFourGear"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>

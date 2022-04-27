@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<suite name="TestngSuite"> // top level
+<suite name="TestngSuite" verbose="2" parallel="methods" thread-count="2"> // top level
 
     <test name="TestngCase"> // second level
 
@@ -11,8 +11,8 @@
             </run>
         </groups>-->
         // this is parameterization , so we can pass the value to the methods
-        <parameter name="Name" value="Man"></parameter>
-        <parameter name="Age" value="23"></parameter>
+<!--        <parameter name="Name" value="Man"></parameter>-->
+<!--        <parameter name="Age" value="23"></parameter>-->
 
         <classes> // third level its have multiple classes
             // include class
@@ -20,8 +20,10 @@
             <class name="mainpage.DependanicesManagement"/>
             <class name="mainpage.SkipATestCase"/>
             <class name="mainpage.testNGPriority"/>
-            <class name="mainpage.GroupingExample"/>-->
-            <class name="mainpage.ParameterizationExample"/>
+            <class name="mainpage.GroupingExample"/>
+             <class name="mainpage.ParameterizationExample"/>
+            -->
+            <class name="mainpage.ParallelTesting"/>
         </classes>
 
 
