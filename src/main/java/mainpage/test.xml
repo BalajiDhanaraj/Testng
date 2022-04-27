@@ -2,21 +2,26 @@
 <suite name="TestngSuite"> // top level
 
     <test name="TestngCase"> // second level
-        <groups>
+
+        // this the group and run the method using inclued tag and execlude
+       <!-- <groups>
             <run>
                 <include name = "Apple"></include>
                 <exclude name = "Htc"></exclude>
             </run>
-        </groups>
+        </groups>-->
+        // this is parameterization , so we can pass the value to the methods
+        <parameter name="Name" value="Man"></parameter>
+        <parameter name="Age" value="23"></parameter>
 
         <classes> // third level its have multiple classes
             // include class
            <!-- <class name="mainpage.testNG"/>
             <class name="mainpage.DependanicesManagement"/>
             <class name="mainpage.SkipATestCase"/>
-            <class name="mainpage.testNGPriority"/>-->
-            <class name="mainpage.GroupingExample"/>
-
+            <class name="mainpage.testNGPriority"/>
+            <class name="mainpage.GroupingExample"/>-->
+            <class name="mainpage.ParameterizationExample"/>
         </classes>
 
 
