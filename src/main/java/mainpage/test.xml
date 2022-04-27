@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="TestngSuite"> // top level
+
+    <test name="TestngCase"> // second level
+        <groups>
+            <run>
+                <include name = "Apple"></include>
+                <exclude name = "Htc"></exclude>
+            </run>
+        </groups>
+
+        <classes> // third level its have multiple classes
+            // include class
+           <!-- <class name="mainpage.testNG"/>
+            <class name="mainpage.DependanicesManagement"/>
+            <class name="mainpage.SkipATestCase"/>
+            <class name="mainpage.testNGPriority"/>-->
+            <class name="mainpage.GroupingExample"/>
+
+        </classes>
+
+
+    </test>
+
+</suite>
